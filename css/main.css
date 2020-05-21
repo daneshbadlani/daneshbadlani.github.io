@@ -1,43 +1,76 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+#jumbo1 {
+  text-align: left;
+  background-image: url('../images/gradient2.jpg');
+  background-repeat: repeat-x;
+  background-size: 70% 100%;
+  margin: 0px;
+  color: #fff;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+.jumbotron {
+  background-color: white;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+.jumbotron h1 {
+  color: #5a5a5a;
+  text-decoration: none;
+  font-weight: bold;
 }
-a {
-    text-decoration: none;
-    color: #999;
+#jumbo1 h1 {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
-a:hover {
-    text-decoration: underline;
+#jumbo2 {
+  padding-top: 0px;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+#jumbo2 .col-md-4 {
+  margin-top: 35px;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+#swift {
+  color: #ffac45;
+  font-weight: bold;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+#ruby {
+  color: #701516;
+  font-weight: bold;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+#github {
+  color: #333;
 }
-
-ul.posts li {
-    list-style: none;
+#shopify {
+  color: #96bf48;
+}
+#wwdc {
+  color: #1da1f2;
+}
+.jumbotron hr {
+  width: 75%;
+  height: 3px;
+  border: 0 none;
+  background: #5a5a5a;
+  padding-bottom: 0px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.jumbotron img {
+  width: 260px;
+  height: auto;
+  vertical-align: middle;
+  border: 10px solid #eee;
+  border-radius: 130px;
+}
+.jumbotron p {
+  margin-top: 10px;
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .jumbotron {
+    margin-top: 25px;
+  }
+  #jumbo2 p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .navbar-right {
+    visibility: hidden;
+  }
 }
