@@ -159,7 +159,7 @@ footer hr {
 }
 footer {
   background-color: #eee;
-  padding-bottom: 10px;
+  padding-bottom: -10px;
 }
 .fa-stack.fa-2x {
   color: #5a5a5a;
