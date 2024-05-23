@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: mediumblue; /* Changed to light blue */
+  background-color: lightblue; /* Changed to light blue */
   color: white; /* Set font color to white */
   text-align: center;
   padding: 10px 0;
@@ -38,7 +38,7 @@ main {
 }
 
 footer {
-  background-color: mediumblue; /* Changed to light blue */
+  background-color: lightblue; /* Changed to light blue */
   color: white; /* Set font color to white */
   text-align: center;
   padding: 10px 0;
