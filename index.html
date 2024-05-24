@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Danesh Badlani</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Blog - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>My Blog</strong></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <main>
-    <section>
-      <h1>Hi, I am Danesh!</h1>
-      <ul>
-        <li>I am a tinkerer, builder and life-long learner.</li>
-        <li>I have worked at a bunch of startups as well as <a href="http://microsoft.com/" target="_blank">Microsoft</a>.</li>
-        <li>I am immensely curious and like to invest in teams and ventures that create massive value for people.</li>
-      </ul>  
-      <img src="your-image.jpg" alt="Your Image">
-    </section>
-  </main>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Welcome to My Blog</h2>
+                    <h3>Sharing my thoughts and experiences</h3>
+                </hgroup>
+                <p>This is the homepage of my personal blog where I share my thoughts, experiences, and everything that interests me. Stay tuned for more updates!</p>
+                <figure>
+                    <img src="https://via.placeholder.com/1024x512" alt="Homepage Banner" />
+                    <figcaption><a href="#" target="_blank">Image Source</a></figcaption>
+                </figure>
+                <h3>Latest Posts</h3>
+                <p>Check out my latest blog posts below.</p>
+                <h3>About Me</h3>
+                <p>Learn more about the person behind this blog.</p>
+            </section>
+        </div>
+    </main>
 
-  <footer>
-    <ul>
-      <li><a href="#">Social Media Link 1</a></li>
-      <li><a href="#">Social Media Link 2</a></li>
-      <li><a href="#">Social Media Link 3</a></li>
-    </ul>
-  </footer>
+    <footer class="container">
+        <small>
+            <a href="https://facebook.com" target="_blank">Facebook</a> •
+            <a href="https://twitter.com" target="_blank">Twitter</a> •
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </small>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
