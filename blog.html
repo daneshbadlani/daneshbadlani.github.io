@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Blog</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>My Blog</strong></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <main>
-    <section>
-      <h1>My Blog</h1>
-      <p>Write your blogs here</p>
-    </section>
-  </main>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Blog Posts</h2>
+                    <h3>Latest updates and articles</h3>
+                </hgroup>
+                <article>
+                    <h3>AI Agents</h3>
+                    <p>Excerpt from the first blog post. <a href="#">Read more...</a></p>
+                </article>
+                <article>
+                    <h3>Post Title 2</h3>
+                    <p>Excerpt from the second blog post. <a href="#">Read more...</a></p>
+                </article>
+                <!-- Add more blog posts as needed -->
+            </section>
+        </div>
+    </main>
 
-  <footer>
-    <ul>
-      <li><a href="#">Social Media Link 1</a></li>
-      <li><a href="#">Social Media Link 2</a></li>
-      <li><a href="#">Social Media Link 3</a></li>
-    </ul>
-  </footer>
+    <footer class="container">
+        <small>
+            <a href="https://facebook.com" target="_blank">Facebook</a> •
+            <a href="https://twitter.com" target="_blank">Twitter</a> •
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </small>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
