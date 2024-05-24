@@ -4,21 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog</title>
+    <title>Personal Blog - Blog</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-    <nav class="container-fluid">
-        <ul>
-            <li><strong>My Blog</strong></li>
-        </ul>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
-    </nav>
+    <div class="navbar-container">
+        <nav class="container-fluid">
+            <ul>
+                <li><strong>My Blog</strong></li>
+            </ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main class="container">
         <div class="grid">
@@ -28,7 +31,7 @@
                     <h3>Latest updates and articles</h3>
                 </hgroup>
                 <article>
-                    <h3>AI Agents</h3>
+                    <h3>Post Title 1</h3>
                     <p>Excerpt from the first blog post. <a href="#">Read more...</a></p>
                 </article>
                 <article>
@@ -40,13 +43,17 @@
         </div>
     </main>
 
-    <footer class="container">
-        <small>
-            <a href="https://facebook.com" target="_blank">Facebook</a> •
-            <a href="https://twitter.com" target="_blank">Twitter</a> •
-            <a href="https://instagram.com" target="_blank">Instagram</a>
-        </small>
-    </footer>
+    <div class="footer-container">
+        <footer class="container">
+            <small>
+                <div class="social-media-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </small>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
