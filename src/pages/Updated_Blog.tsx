@@ -1,3 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+const element = <FontAwesomeIcon icon={faEnvelope} />
+
+
 <div className="w-full h-screen bg-white">
   <header className="w-full h-20 bg-[#232536] flex items-center">
     <div className="ml-[83px] text-[30px] font-bold capitalize text-white">Danesh Kumar Badlani</div>
