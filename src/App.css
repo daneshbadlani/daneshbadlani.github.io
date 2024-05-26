@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #2C2C3E;
+  padding: 20px 0;
+  color: #FFFFFF;
+}
+
+.App-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.App-header h1 {
+  font-size: 24px;
+}
+
+.App-header nav a {
+  margin-left: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.intro {
+  max-width: 500px;
+}
+
+.intro h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.intro .subtitle {
+  font-size: 20px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.intro .details {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.intro .details li {
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #2C2C3E;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer .social-links a {
+  margin-left: 10px;
+}
+
+footer .social-links img {
+  width: 24px;
+  height: 24px;
+}
